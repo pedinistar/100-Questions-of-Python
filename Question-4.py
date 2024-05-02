@@ -1,6 +1,7 @@
-number = int(input("Enter the number: "))
+# Q4: Area of Triangle
+def calculate_area(height, base):
+    return (1 / 2) * base * height
 
-square_root = number**0.5
 
-print(f"The square root of {number} is {square_root}")
-             
+area = calculate_area(height=12, base=23)
+print(f"The area of triangle is {area}")
